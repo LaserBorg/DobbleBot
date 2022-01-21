@@ -20,14 +20,14 @@ then [finding contours](https://pythonexamples.org/python-opencv-cv2-find-contou
 then [get the bounding box](https://docs.opencv.org/3.4.15/da/d0c/tutorial_bounding_rects_circles.html) to crop the image down.
 
 
-``03_featurematching.py`` extracts SIFT features of all 64 template images (once) and stores them as pickle-files for later use.
-![](images/results/templateFeatures.jpg)
+``03_featurematching.py`` extracts SIFT features of all 64 template images (once) and stores them as pickle-files for later use.<br>
+![template feature](images/results/templateFeatures.jpg)
 
-It then extracts features of the new image..
-![](images/results/imageFeatures.jpg)
+It then extracts features of the (live) image<br>
+![image features](images/results/imageFeatures.jpg)
 
-..identifies templates by matching features (and even computes the homography matrix -> perspective displayed as blue square).
-![](images/results/dobble_01_1000 matches.jpg)
+and identifies symbols by matching features (and even computes the homography matrix -> perspective displayed as blue square).<br>
+![match](images/results/dobble_01_1000%20matches.jpg)
 
 
 ### what it does not (yet):
