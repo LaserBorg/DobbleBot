@@ -1,7 +1,3 @@
-"""
-based on my OEKOTEX featurematching project
-"""
-
 import os
 from libs.featurematching import *
 from libs.image import transform_img, draw_matches, draw_features, get_dst

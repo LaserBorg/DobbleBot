@@ -1,11 +1,3 @@
-"""
-https://learnopencv.com/blob-detection-using-opencv-python-c/
-https://pythonexamples.org/python-opencv-cv2-find-contours-in-image/
-https://www.pyimagesearch.com/2016/10/31/detecting-multiple-bright-spots-in-an-image-with-python-and-opencv/
-https://docs.opencv.org/3.4.15/da/d0c/tutorial_bounding_rects_circles.html
-"""
-
-
 import cv2
 import numpy as np
 import os

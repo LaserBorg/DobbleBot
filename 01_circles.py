@@ -1,14 +1,7 @@
 '''
-https://www.pyimagesearch.com/2014/07/21/detecting-circles-images-using-opencv-hough-circles/
-https://www.geeksforgeeks.org/find-circles-and-ellipses-in-an-image-using-opencv-python/
-
-alternative:
-https://www.geeksforgeeks.org/circle-detection-using-opencv-python/
-
 SCANS:
 600 dpi (-> Radius 100)
 -5 Helligkeit
-
 '''
 
 import cv2
